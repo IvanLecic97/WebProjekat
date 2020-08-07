@@ -33,9 +33,11 @@ public class apartment {
 	private List<String> reservations;
 	
 	
+	
+
+
 	public apartment(int roomNum, int guestNum, String location, String date, List<String> freeDates, String host,
-			String comments, String pics, int price, String time, String leavingTime, List<String> amneities,
-			List<String> reservations) {
+			String comments, String pics, int price, String time, String leavingTime, List<String> reservations) {
 		super();
 		this.roomNum = roomNum;
 		this.guestNum = guestNum;
